@@ -143,10 +143,9 @@ h1{
 
 #boxes .box{
 	float: left;
-	margin-left: 20px;
 	text-align: center;
-	width: 7%;
-	padding: 30px 0 0 280px;
+	width: 3%;
+	padding: 10px 0 0 200px;
 }
 
 #boxes .box img{
@@ -160,7 +159,7 @@ footer{
 	background-color: red;
 	text-align: center;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 980px){
 	header #branding,
 	header nav,
 	header nav li,
@@ -170,9 +169,9 @@ footer{
 		width: 100%;
 	}
 	#boxes .box{
-		float: none;
+		float: left;
 		text-align: center;
-		width: 100%	
+		width: 70%	
 	}
     #showcase h1{
 		margin-bottom: 30px;

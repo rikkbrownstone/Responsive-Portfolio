@@ -132,7 +132,17 @@ h1{
 #newsletter h2{
 	float: left;
 }
+/* showcase */
+#showcase2 h1{
+   color: red;
+}
+#showcase2 img{
 
+}
+
+#showcase2 a{
+
+}
 
 
 
@@ -181,6 +191,13 @@ footer{
     #showcase h1{
 		margin-bottom: 30px;
 	}
+
+	#showcase2{
+		padding: 20px;
+		text-align: center;
+		width: 85%	    
+	}
+
     header a
 	{
 		float: center;

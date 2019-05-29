@@ -144,12 +144,12 @@ h1{
 #boxes .box{
 	float: left;
 	text-align: center;
-	width: 3%;
-	padding: 10px 0 0 200px;
+	width: 30%;
+	padding: 10px ;
 }
 
 #boxes .box img{
-	width: 100px;
+	width: 90px;
 }
 
 footer{
@@ -171,11 +171,9 @@ footer{
 	#boxes .box{
 		
 		text-align: center;
-<<<<<<< HEAD
+
 		width: 70%	
-=======
-		width: 50%	
->>>>>>> e3d4948a7094cc02a366ac847131b83ef56c1504
+
 	}
     #showcase h1{
 		margin-bottom: 30px;

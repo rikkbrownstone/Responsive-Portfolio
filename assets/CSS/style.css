@@ -1,0 +1,190 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif; /*font size, line-height "gap between the line, and font style"*/
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+
+/* Global */
+.container{
+    width: 80%; /*so it can fit on mobile or tablets*/
+    margin: auto;
+	overflow: hidden; /*so that the up and down arrow won't appear*/
+}
+.pic{
+	width: 80px;
+	height: 90px;
+}
+
+.picbig{
+	position: absolute;
+	width: 0px;
+	-webkit-transition: width 0.3s linear 0s;
+	transition: width 0.3s linear 0s;
+	z-index: 10;
+}
+
+.pic:hover + .picbig{
+	width: 200px;
+}
+
+
+
+ul{
+	margin: 0; /*set it to zero always for ul both margin and padding*/
+    padding: 0;
+    
+}
+ ul li a{
+     list-style: none;
+     text-decoration: none;
+ }
+
+
+/* Header */
+header{
+	background: #151312;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px; /*height for tablet or mobile device*/
+	border-bottom: #e8491d 3px solid; /*to put a line in the bottom of the header, color,padding and solid*/
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none; /*to take off of the line in nav button, HOME, ABOUT etc.*/
+	text-transform: uppercase; /*to capitalize the font*/
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline; /*to get rid of bullets and align*/
+	padding: 0 20px 0 20px; /*padding from left,down, right,top*/
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: red;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #e6750b;
+	font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+    min-height: 500px;
+    
+}
+
+
+#showcase h1{
+    color: red; 
+}
+
+/*portfolio*/
+
+.photo1{
+    margin-right: 60px;
+}
+.photo2{
+    margin-right: 80px;
+}
+
+.photo3{
+    margin-left: 10px;
+}
+
+.about{
+    float: left;
+}
+
+img{
+    float: right;
+    margin-bottom: 10px;
+}
+h1{
+	color: white;
+}
+
+#newsletter{
+	padding: 15px;
+	color: white;
+	background: #151312;
+}
+
+#newsletter h2{
+	float: left;
+}
+
+
+
+
+/* boxes */
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	width: 7%;
+	padding: 30px 0 0 280px;
+}
+
+#boxes .box img{
+	width: 100px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 40px;
+	color: #ffffff;
+	background-color: red;
+	text-align: center;
+}
+@media screen and (max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	#boxes .box{
+		float: none;
+		text-align: center;
+		width: 100%	
+	}
+    #showcase h1{
+		margin-bottom: 30px;
+	}
+    header a
+	{
+		float: center;
+		text-align: center;
+	}
+	footer{
+		margin-bottom: 30px;
+	}
+}
+
+
